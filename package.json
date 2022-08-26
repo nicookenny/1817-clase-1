@@ -5,12 +5,13 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev":"npx nodemon index.ts"
+    "dev": "npx nodemon index.ts"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@types/node": "^18.7.13",
     "nodemon": "^2.0.19",
     "ts-node": "^10.9.1"
   }
